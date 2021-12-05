@@ -5,7 +5,25 @@
         "ProjectId": "3abd9b27-86e3-4369-9b6e-4f33eeb44518",
         "ProjectName": "SandboxProject",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "ba9d6ec9-fddc-4a90-b037-ae60da44e36c",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "efa06307-7d9c-479e-8c45-3ae183478ea3",
+                "DatabaseAliasName": "Database1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/dbmscuserone/scproject1",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -21,7 +39,24 @@
       "UserData": [
         {
           "UserName": "dbmscuserone",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "efa06307-7d9c-479e-8c45-3ae183478ea3",
+              "DatabaseAliasName": "Database1",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "SCSandbox"
+              },
+              "RepositoryCredentials": {
+                "UserName": "dbmscuserone",
+                "Password": "rVMxrIuX3JVhOrouASuf1LjRIelegS7bIG+e0R+KBWHNvS8BoWAANcHWcIZqqSJP"
+              }
+            }
+          ]
         }
       ]
     }
