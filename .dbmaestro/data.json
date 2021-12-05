@@ -57,6 +57,27 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "dbmscusertwo",
+          "DatabasesData": [
+            {
+              "DatabaseId": "efa06307-7d9c-479e-8c45-3ae183478ea3",
+              "DatabaseAliasName": "Database1",
+              "DatabaseConnectionDetails": {
+                "DBTypeName": "SQL Server",
+                "Host": "localhost",
+                "AuthenticationType": 1,
+                "Username": "sa",
+                "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                "DatabaseName": "SCSandbox2"
+              },
+              "RepositoryCredentials": {
+                "UserName": "dbmscusertwo",
+                "Password": "6fwDA6CMSKOklEmYvU9roHaTChPhpK4KfrdKzONodB4SZvA/wIPg0z8Oe5rZEqvX"
+              }
+            }
+          ]
         }
       ]
     }
