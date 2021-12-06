@@ -80,6 +80,66 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "8327849e-748e-4233-8df4-1116307627f6",
+        "ProjectName": "SharedProject",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "f9495838-9f98-4778-b14b-4f96f66c61df",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "bdf45ee7-dc3e-4c90-8993-9fd5d62c15ed",
+                "DatabaseAliasName": "SharedDatabase1",
+                "DatabaseConnectionDetails": {
+                  "DBTypeName": "SQL Server",
+                  "Host": "localhost",
+                  "AuthenticationType": 1,
+                  "Username": "sa",
+                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "DatabaseName": "SCShared"
+                },
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/dbmscuserone/sharedscproject",
+                  "BranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\Users\\scuser1\\Documents\\SharedProject"
+      },
+      "UserData": [
+        {
+          "UserName": "dbmscuserone",
+          "DatabasesData": [
+            {
+              "DatabaseId": "bdf45ee7-dc3e-4c90-8993-9fd5d62c15ed",
+              "DatabaseAliasName": "SharedDatabase1",
+              "DatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "dbmscuserone",
+                "Password": "rVMxrIuX3JVhOrouASuf1LjRIelegS7bIG+e0R+KBWHNvS8BoWAANcHWcIZqqSJP"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
