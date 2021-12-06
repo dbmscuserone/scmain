@@ -80,6 +80,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "8327849e-748e-4233-8df4-1116307627f6",
+        "ProjectName": "SharedProject",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": "C:\\Users\\scuser1\\Documents\\SharedProject"
+      },
+      "UserData": [
+        {
+          "UserName": "dbmscuserone",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
