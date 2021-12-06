@@ -100,7 +100,7 @@
                   "Host": "localhost",
                   "AuthenticationType": 1,
                   "Username": "sa",
-                  "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                  "Password": "sfZOS72bZiAoccYMIgKOrjo0lwHlyJQIoAVZntMAOzA=",
                   "DatabaseName": "SCShared"
                 },
                 "RepositoryDetails": {
@@ -135,6 +135,20 @@
               "RepositoryCredentials": {
                 "UserName": "dbmscuserone",
                 "Password": "rVMxrIuX3JVhOrouASuf1LjRIelegS7bIG+e0R+KBWHNvS8BoWAANcHWcIZqqSJP"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "dbmscusertwo",
+          "DatabasesData": [
+            {
+              "DatabaseId": "bdf45ee7-dc3e-4c90-8993-9fd5d62c15ed",
+              "DatabaseAliasName": "SharedDatabase1",
+              "DatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "dbmscusertwo",
+                "Password": "6fwDA6CMSKOklEmYvU9roHaTChPhpK4KfrdKzONodB4SZvA/wIPg0z8Oe5rZEqvX"
               }
             }
           ]
